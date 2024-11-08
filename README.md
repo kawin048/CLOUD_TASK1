@@ -4,7 +4,7 @@ This repository contains the source code for a React-based TODO application. The
 # Table of content
 - Prerequisites
 - Overview
-- # Installation
+- Installation
 - Local Deployment using DockerFile
 - App Deployment to Cloud Run on Google Cloud
 - Verifying the Deployment
