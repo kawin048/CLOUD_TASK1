@@ -1,4 +1,4 @@
-# Deployemnt of Web Apllication on ClouRun
+# Deployemnt of Web Apllication on CloudRun
 This repository contains the source code for a React-based TODO application. The application can be deployed locally or on Google Cloud using a containerized environment.
 
 # Prerequisites
