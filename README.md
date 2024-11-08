@@ -8,7 +8,7 @@ This repository contains the source code for a React-based TODO application. The
 - [Local Deployment using DockerFile](https://github.com/kawin048/CLOUD_TASK1/blob/main/README.md#local-deployment-using-dockerfile)
 - [App Deployment to Cloud Run on Google Cloud](https://github.com/kawin048/CLOUD_TASK1/blob/main/README.md#app-deployment-to-cloud-run-on-google-cloud)
 - [Verifying the Deployment](https://github.com/kawin048/CLOUD_TASK1/blob/main/README.md#verifying-the-deployment)
-- [RESULT](https://github.com/kawin048/CLOUD_TASK1/blob/main/README.md#Result
+- [Result](https://github.com/kawin048/CLOUD_TASK1/blob/main/README.md#Result)
 
 # Prerequisites
 - Google Cloud Account 
