@@ -2,23 +2,23 @@
 This repository contains the source code for a React-based TODO application. The application can be deployed locally or on Google Cloud using a containerized environment.
 
 # Prerequisites
-- A Google Cloud Account 
-- A GCP project with billing enabled.
+- Google Cloud Account 
+- GCP project with billing enabled.
 - Docker installed on local machine and necessary permissions on Google cloud for deployment.
 
 # Overview
-1. Git clone the source code from github
+1. Clone the source code from github
 2. Test the app locally.
-3. Bulid Docker image and access the application on localhost.
-4. Next,we move to Google Cloud and Build Docker image.
+3. Build a Docker image and access the application on localhost.
+4. Next, we build a Docker image on google cloud.
 5. Push image to GCR.
 6. Use cloud run service for deployment of this web app.
 7. Access the app with url created by Cloud run.
 
 # Usage
-1.clone the repository from GitHub
+1.clone the repository from GitHub:
 ```bash
-https://github.com/kawin048/CLOUD_TASK1.git
+git clone https://github.com/kawin048/CLOUD_TASK1.git
 ```
 2.Install dependencies:
 
@@ -26,7 +26,7 @@ https://github.com/kawin048/CLOUD_TASK1.git
 npm install
 ```
 
-3.Test the application
+3.Test the application:
 ```bash
 npm start
 ```
@@ -74,7 +74,7 @@ docker run -d -p 8080:8080 My-Todo-App
 # App Deployment to Cloud Run
 
 1.Connect to Google Cloud from local using Cloudsdk.
-2.Execute the command to connect to Google cloud and Project 
+2.Execute the command to connect to Google cloud and Project :
 ```bash
 gcloud auth login
 gcloud config set project <your-project-id>
@@ -82,7 +82,7 @@ gcloud config set compute/region "REGION"
 LOCATION="Region"
 
 ```
-3.Authenticate Docker with Google Cloud
+3.Authenticate Docker with Google Cloud:
 ```bash
 gcloud auth configure-docker
 ```
@@ -95,7 +95,7 @@ gcloud services enable cloudbuild.googleapis.com
 ```bash
 gcloud builds submit --tag gcr.io/$GOOGLE_CLOUD_PROJECT/your-app-name
 ```
-6. Verify the image in the Artifact Registry
+6. Verify the image in the Artifact Registry:   
 ```bash
 gcloud container images list
 ```
@@ -107,8 +107,12 @@ gcloud run deploy --image gcr.io/$GOOGLE_CLOUD_PROJECT/your-app-name --allow-una
 On successful deployment, the service URL will be displayed. Open this URL in your browser to use the application.
 
 # Verifying the Deployment
-- After deploying to Cloud Run, you should see a URL in your terminal, such as https://My-Todo-App-xxxxxx-uc.a.run.app. This is the public endpoint for your TODO application in the cloud.
-- 
+- After deploying to Cloud Run, you should see a URL in your terminal, such as https://My-Todo-App-xxxxxx-uc.a.run.app. This is the public endpoint for your TODO application in the cloud.RS
+
+# RESULT 
+After following all the steps and instructions outlined above, I successfully built and deployed a simple React To-Do application, now running on Google Cloud.
+
+- TO ACCESS MY APPLICATION: https://cloud-task1-vm-454757820311.us-central1.run.app
 
 
   
