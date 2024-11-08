@@ -1,7 +1,7 @@
 # Deployemnt of Web Application on Cloud Run-TASK 1
 This repository contains the source code for a React-based TODO application. The application can be deployed locally or on Google Cloud using a containerized environment.
 
-# Table of content
+# Table of contents
 - [Prerequisites](https://github.com/kawin048/CLOUD_TASK1/blob/main/README.md#prerequisites)
 - [Overview](https://github.com/kawin048/CLOUD_TASK1/blob/main/README.md#overview)
 - [Installation](https://github.com/kawin048/CLOUD_TASK1/blob/main/README.md#installation)
