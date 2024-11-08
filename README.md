@@ -52,7 +52,7 @@ RUN npm install
 COPY . .
 
 # Expose port 8080 for Cloud Run
-EXPOSE 8080
+EXPOSE 80
 
 # Run the application
 CMD ["node", "index.js"]
@@ -65,13 +65,13 @@ docker build -t My-Todo-App .
 ```
 3.Run the Docker Container:
 ```bash 
-docker run -d -p 8080:8080 My-Todo-App
+docker run -d -p 8080:80 My-Todo-App
 
 ```
 4. Access the Application:
    - Open a browser and go to http://localhost:8080 to see the application.
 
-# App Deployment to Cloud Run
+# App Deployment to Cloud Run on Google Cloud
 
 1.Connect to Google Cloud from local using Cloudsdk.
 2.Execute the command to connect to Google cloud and Project :
