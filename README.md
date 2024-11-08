@@ -3,12 +3,12 @@ This repository contains the source code for a React-based TODO application. The
 
 # Table of content
 - [Prerequisites](https://github.com/kawin048/CLOUD_TASK1/blob/main/README.md#prerequisites)
-- [Overview]
-- [Installation]
-- [Local Deployment using DockerFile]
-- [App Deployment to Cloud Run on Google Cloud]
-- [Verifying the Deployment]
-- [RESULT]
+- [Overview](https://github.com/kawin048/CLOUD_TASK1/blob/main/README.md#overview)
+- [Installation](https://github.com/kawin048/CLOUD_TASK1/blob/main/README.md#installation)
+- [Local Deployment using DockerFile](https://github.com/kawin048/CLOUD_TASK1/blob/main/README.md#local-deployment-using-dockerfile)
+- [App Deployment to Cloud Run on Google Cloud](https://github.com/kawin048/CLOUD_TASK1/blob/main/README.md#app-deployment-to-cloud-run-on-google-cloud)
+- [Verifying the Deployment](https://github.com/kawin048/CLOUD_TASK1/blob/main/README.md#verifying-the-deployment)
+- [RESULT](https://github.com/kawin048/CLOUD_TASK1/blob/main/README.md#Result
 
 # Prerequisites
 - Google Cloud Account 
@@ -118,7 +118,7 @@ On successful deployment, the service URL will be displayed. Open this URL in yo
 # Verifying the Deployment
 - After deploying to Cloud Run, you should see a URL in your terminal, such as https://My-Todo-App-xxxxxx-uc.a.run.app. This is the public endpoint for your TODO application in the cloud.RS
 
-# RESULT 
+# Result
 After following all the steps and instructions outlined above, I successfully built and deployed a simple React To-Do application, now running on Google Cloud.
 
 - TO ACCESS MY APPLICATION: [MY APPLICATION](https://cloud-task1-vm-454757820311.us-central1.run.app)
