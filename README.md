@@ -116,7 +116,7 @@ gcloud run deploy --image gcr.io/$GOOGLE_CLOUD_PROJECT/your-app-name --allow-una
 On successful deployment, the service URL will be displayed. Open this URL in your browser to use the application.
 
 # Verifying the Deployment
-After deploying to Cloud Run, you should see a URL in your terminal, such as https://My-Todo-App-xxxxxx-uc.a.run.app. This is the public endpoint for TODO application in the Cloud Run
+After deploying to Cloud Run, you should see a URL in your terminal, such as https://My-Todo-App-xxxxxx-uc.a.run.app. This is the public endpoint for TODO application in the Cloud Run.
 
 # Result
 After following all the steps and instructions outlined above, I successfully built and deployed a simple React To-Do application, now running on Google Cloud.
