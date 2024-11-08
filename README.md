@@ -1,5 +1,5 @@
 # Deploying a Web Application on Cloud Run - TASK 1
-This repository contains the source code for a React-based TODO application.Deployment can be done either locally or on Google Cloud using a Docker-based containerized environment, ensuring flexibility and scalability. Detailed instructions are provided to guide you through setting up and deploying the application to both local environments and the cloud.
+This repository contains the source code for a React-based TODO application.Deployment can be done either locally or on Google Cloud using Cloud Run Services.Detailed instructions and steps are provided to guide you through setting up and deploying the application to both local environments and the cloud.
 
 # Table of contents
 - [Prerequisites](https://github.com/kawin048/CLOUD_TASK1/blob/main/README.md#prerequisites)
