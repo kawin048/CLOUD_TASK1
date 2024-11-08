@@ -95,7 +95,7 @@ LOCATION="Region"
 ```bash
 gcloud auth configure-docker
 ```
-4. Enable Cloud Run and Cloud Build APIs:
+4. Enable Cloud Run APIs:
 ```bash
 gcloud services enable run.googleapis.com
 
